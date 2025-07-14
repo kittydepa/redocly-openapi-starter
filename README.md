@@ -1,3 +1,7 @@
+Good stuff!
+
+---
+
 # OpenAPI Definition Starter
 
 ## How to use this starter

@@ -4,9 +4,13 @@ apis:
     root: openapi/openapi.yaml
 extends:
   - recommended
+  - minimal
 rules:
   no-unused-components: error
   no-server-example.com: off
+  path-parameters-defined: error
+  operation-operationId: error
+  paths-kebab-case: warn
 theme:
   openapi:
     htmlTemplate: ./docs/index.html

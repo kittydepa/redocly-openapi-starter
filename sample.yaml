@@ -4,6 +4,15 @@ info:
   version: 1.0.0
   description: |
     This API showcases usage of the `x-internal` property and a single OpenAPI file to generate separate internal and external OAS definitions.
+    Here is some more for documentation.
+    *Does this work* **or this** `?`
+    |
+    More text goes here.
+    ```Python
+    import pizza
+    from os
+    # More Python goes here
+    ```
 servers:
   - url: https://ebcdea8b-433b-4fc1-83d3-ae8f77962a73.remockly.com
     description: Mock server

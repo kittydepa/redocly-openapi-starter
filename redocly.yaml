@@ -1,6 +1,8 @@
 # See https://redocly.com/docs/cli/configuration/ for more information.
 apis:
-  sample@v1: 
+  internal@latest:                      # See https://redocly.com/docs/cli/guides/hide-apis
+    root: ./sample.yaml                 # root = path to API description
+  sample@v1:
     root: openapi/openapi.yaml
 extends:
   - recommended
